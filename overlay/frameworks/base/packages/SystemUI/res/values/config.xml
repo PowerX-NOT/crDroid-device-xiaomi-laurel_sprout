@@ -77,4 +77,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <item>240,6</item>
           <item>260,0</item>
     </string-array>
+    
+    <!-- Udfps vendor code -->
+    <integer name="config_udfpsVendorCode">22</integer>   
+    
+    <!-- Whether to pulse onFingerDown actions instead
+        of waking the screen while the screen is off or in lpm. -->
+    <bool name="config_pulseOnFingerDown">true</bool>     
     </resources>
